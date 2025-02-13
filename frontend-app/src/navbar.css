@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #be8888;
+}
+.navbar ul{
+    display: inline-flex;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
