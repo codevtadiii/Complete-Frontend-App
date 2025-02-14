@@ -12,3 +12,19 @@
     font-size: 20px;
     color: black;
 }
+.post{
+    background-color: #fae7e7;
+    border: 1px solid black;
+    box-shadow: 3px 3px #7c7676;
+    border-radius: 5px;
+}
+.design{
+    background-color: #fae7e7;
+    border: 1px solid black;
+    box-shadow: 3px 3px #7c7676;
+    border-radius: 5px;
+    margin: 5px;
+}
+.design h2{
+    text-align: center;
+}
