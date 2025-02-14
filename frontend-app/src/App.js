@@ -3,6 +3,7 @@ import "./App.css";
 import GetPost from "./get_post";
 import React, { useRef } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SendPost from "./Send_post";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<GetPost />} />
+          <Route path="/" element={<SendPost/>} />
         </Routes>
+        
       </BrowserRouter>
     </div>
   );
